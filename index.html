@@ -11,14 +11,34 @@
       background-color: #000;
       font-family: sans-serif;
     }
+    .container {
+      position: relative;
+      text-align: center;
+    }
     img {
       width: 100%;
       height: auto;
       display: block;
     }
+    .button-link {
+      position: absolute;
+      top: 82%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: gold;
+      color: #0d0e22;
+      padding: 1rem 2rem;
+      font-weight: bold;
+      border-radius: 10px;
+      text-decoration: none;
+      box-shadow: 0 0 10px gold;
+    }
   </style>
 </head>
 <body>
-  <img src="assets/design.png" alt="Pleroma Coin Design" />
+  <div class="container">
+    <img src="assets/design.png" alt="Pleroma Coin Design" />
+    <a class="button-link" href="pleroma-user-wallet.zip" download>Download Wallet</a>
+  </div>
 </body>
 </html>
