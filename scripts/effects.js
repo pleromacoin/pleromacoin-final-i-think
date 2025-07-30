@@ -1,0 +1,1 @@
+// Fade-in effects and dashboard behavior here
