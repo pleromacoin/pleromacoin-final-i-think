@@ -1,0 +1,37 @@
+
+body {
+  background-color: #0d0d1a;
+  color: gold;
+  font-family: 'Georgia', serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.container {
+  padding-top: 10vh;
+}
+.logo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+.tagline {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+.btn {
+  background-color: gold;
+  color: #0d0d1a;
+  padding: 12px 24px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+}
+footer {
+  margin-top: 40px;
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
