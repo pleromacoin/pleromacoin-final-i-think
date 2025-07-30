@@ -13,6 +13,8 @@
     }
     .container {
       position: relative;
+      width: 100%;
+      max-width: 100%;
       text-align: center;
     }
     img {
@@ -22,7 +24,7 @@
     }
     .button-link {
       position: absolute;
-      top: 82%;
+      top: 79.5%;
       left: 50%;
       transform: translate(-50%, -50%);
       background: gold;
@@ -32,6 +34,13 @@
       border-radius: 10px;
       text-decoration: none;
       box-shadow: 0 0 10px gold;
+      z-index: 10;
+    }
+    @media(max-width: 768px) {
+      .button-link {
+        padding: 0.8rem 1.2rem;
+        font-size: 0.9rem;
+      }
     }
   </style>
 </head>
