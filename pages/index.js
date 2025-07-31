@@ -10,7 +10,7 @@ export default function Home() {
       fontSize: '2rem',
       fontFamily: 'Georgia, serif'
     }}>
-      ✅ Pleroma Site Deployed Successfully (Flat Version)
+      ✅ Pleroma GitHub-Ready Site is Live!
     </main>
   );
 }
