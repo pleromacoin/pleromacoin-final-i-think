@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pleroma Coin – A Currency of Divine Fullness</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      font-family: sans-serif;
+    }
+    .container {
+      position: relative;
+      width: 100%;
+    }
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .button {
+      position: absolute;
+      padding: 2rem 3.6rem;
+      background-color: gold;
+      color: #0d0e22;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.5rem;
+      box-shadow: 0 0 15px gold;
+      z-index: 10;
+    }
+    .wallet {
+      top: 20.5%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .whitepaper {
+      top: 91%;
+      left: 37%;
+      transform: translate(-50%, -50%);
+    }
+    @media(max-width: 768px) {
+      .button {
+        padding: 1.5rem 2.4rem;
+        font-size: 1.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="assets/design.png" alt="Pleroma Coin Design" />
+    <a class="button wallet" href="wallet.zip" download>Download Wallet</a>
+    <a class="button whitepaper" href="whitepaper.pdf" download>Download White Paper</a>
+  </div>
+</body>
+</html>
